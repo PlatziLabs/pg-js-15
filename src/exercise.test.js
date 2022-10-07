@@ -1,7 +1,7 @@
 import { factorial } from "./exercise";
 
 describe('factorial', () => {
-  it('Debe calcular el numer factorial', () => {
+  it('Debe calcular el factorial del numero dado', () => {
     expect(factorial(0)).toBe(1);
     expect(factorial(1)).toBe(1);
     expect(factorial(5)).toBe(120);
