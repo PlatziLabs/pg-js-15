@@ -1,17 +1,11 @@
-import { runCode } from "./exercise";
+import { factorial } from "./exercise";
 
-describe("tests", () => {
-  it("should return [1,2,3,4]", () => {
-    const arrayA = [1, 2];
-    const arrayB = [3, 4];
-    const rta = runCode(arrayA, arrayB);
-    expect(rta).toEqual([1, 2, 3, 4]);
-  });
-
-  it("should return [1,2,3,4,5]", () => {
-    const arrayA = [1, 2];
-    const arrayB = [3, 4, 5];
-    const rta = runCode(arrayA, arrayB);
-    expect(rta).toEqual([1, 2, 3, 4, 5]);
+describe('factorial', () => {
+  it('Debe calcular el numer factorial', () => {
+    expect(factorial(0)).toBe(1);
+    expect(factorial(1)).toBe(1);
+    expect(factorial(5)).toBe(120);
+    expect(factorial(8)).toBe(40320);
+    expect(factorial(10)).toBe(3628800);
   });
 });

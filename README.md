@@ -1,15 +1,25 @@
-En este desafío tienes un array de números, usando la función map debes retornar todos los números del array multiplicados por dos.
+En matemáticas, el factorial de un número entero no negativo 'n', es el producto de la multiplicación de todos los números enteros positivos menores o iguales que 'n'. Por ejemplo:
+
+El factorial de 5 es 5 * 4 * 3 * 2 * 1 = 120
+
+Tu desafío es completar la función que calcule el factorial de un número dado.
 
 La solución debería tener un input y output como los siguientes:
 
 Input
 
 ```js
-solution([2, 4, 5, 6, 8]);
+factorial(0);
+factorial(1);
+factorial(5);
+factorial(10);
 ```
 
 Output
 
-```sh
-[4,8,10,12, 16]
+```js
+1
+1
+120
+3628800
 ```

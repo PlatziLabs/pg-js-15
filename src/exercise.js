@@ -1,3 +1,3 @@
-export function runCode(arrayA, arrayB) {
+export function factorial(number) {
   // Tu código aquí 👈
 }
