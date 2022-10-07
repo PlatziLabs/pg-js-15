@@ -1,3 +1,6 @@
 export function factorial(number) {
-  // Tu código aquí 👈
+  if (number < 2) {
+    return 1;
+  }
+  return number * factorial(number - 1);
 }
