@@ -1,6 +1,6 @@
 En matemáticas, el factorial de un número entero no negativo 'n', es el producto de la multiplicación de todos los números enteros positivos menores o iguales que 'n'. Por ejemplo:
 
-El factorial de 5! es 5 * 4 * 3 * 2 * 1 = 120
+El factorial de 5! es `5 * 4 * 3 * 2 * 1 = 12`
 
 Tu desafío es completar la función que devuelva el numero factorial que se le pase como parametro. Ejemplo:
 
